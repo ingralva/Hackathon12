@@ -90,9 +90,11 @@
     font-size: 1.1em;
     color: black;
   }
-      
 
 
+h1 {
+    font-size: 30px;
+}
 
 .Contenido {
     margin-top: 15px;
