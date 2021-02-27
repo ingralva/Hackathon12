@@ -1,0 +1,103 @@
+
+.contenedor {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.Header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: white;
+    padding: 10px 0px;
+}
+
+.Header-Logo-Texto-Link {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.Header-Logo-Texto-Link-Logo {
+    padding-right: 10px;
+}
+
+.Header-Logo-Texto-Link__Texto1 {
+    font-family: 'Georgia Pro Black', Georgia, serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #233985;
+}
+
+.Header-Logo-Texto-Link__Texto2 {
+    font-family: 'Verdana Pro Black', Verdana, Tahoma;
+    font-size: 1.1em;
+    font-weight: 800;
+    color: #4BBDE0;
+}
+
+.Header-About {
+    background: #233985;
+    padding: 20px;
+}
+
+.About {
+    padding: 3rem 0 1rem 0;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+  }
+
+.About-Eslogan {
+    padding: 0.5rem 0 0.5rem 0;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+}
+
+.Contenido {
+    margin-top: 15px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input {
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    width: 270px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.Calculadora {
+    width: 300px;
+    border: solid 1px blue;
+    padding: 10px;
+}
+
+.Fila {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px;
+    width: 70px;
+}
